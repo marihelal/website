@@ -1,0 +1,109 @@
+p {
+    color: black;
+    text-align: center;
+}
+
+
+#banner{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+#headers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+}
+
+#name{
+    text-align: left;
+}
+
+#tagline{
+    text-align: left;
+}
+
+#starrynight{ 
+    width: 60%;
+    max-width: 500px;
+    object-position: right;
+}
+
+#background{
+    background-image: url('images/background.png');
+    background-size: cover;                  
+    background-position: center;            
+    background-attachment: fixed;      
+    background-repeat: no-repeat;      
+    margin: 0;                               
+    padding: 0;                           
+    height: 100vh;                           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    width: 70%;
+    min-height: 80%;
+    padding: 2%;
+    margin: 5%;
+}
+
+#about_me{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#headshot{
+    width: 50vmin;
+    height: auto;
+    border-radius: 50%;   
+    margin: 0 auto;
+    display: block;
+}
+
+#contact{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.contactbuttons{
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+
+.contactpics{
+    width: 4vw;
+    max-width: 40px;
+    height: auto;
+    max-height: auto;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.contactpics:hover{
+    background-color: transparent;
+    opacity: 1;
+}
+
+
+
+
+
+

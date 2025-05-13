@@ -1,0 +1,116 @@
+html{
+    font-family: "DM Sans", sans-serif; 
+
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --medium-color: #d46ea8
+  }
+
+:root {
+    --light-color: #ffdbf2
+}
+
+:root {
+    --dark-color: #29153a
+}
+
+.heading{
+    color: #ffffff;
+    font-size: 5.5vmin;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subheading{
+    color: var(--light-color);
+    font-size: 3vmin;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.text{
+    font-size: 1.5vmax;
+}
+
+.entrytitle{
+    font-size: 2vmax;
+    font-weight: bold
+}
+
+.banner{
+    background-color: var(--dark-color);
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    height: 30vmin;
+    padding-bottom: 2vmin;
+}
+
+.bigtitle{
+    text-align: center;
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.sidepics{
+    position: sticky;
+    object-fit: contain;
+    height: 100%
+}
+
+#leftpic{
+    padding-left: 1vw;
+    padding-right: 1vw
+}
+
+#rightpic{
+    padding-right: 1vw;
+    padding-left: 1vw
+}
+
+#navigation_bar{
+    background-color: var(--medium-color);
+    padding: 0.2vw;
+    position: sticky;
+    top:0;
+    z-index: 99999;
+    overflow: hidden;
+    .button{
+        font-family: "DM Sans", sans-serif; 
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 15px;
+        margin: 0.2vw;
+        border-radius: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-right:10px;
+        padding-left:10px;
+        background-color: var(--dark-color);; 
+        border-color: white;
+        color: white;
+        border: 10px;
+        cursor: pointer;
+    
+    }
+    
+    .button:hover{
+        transition-duration: 0.2s;
+        color: var(--dark-color);
+        background-color: white;
+    }
+}
+
+#copyright{
+    text-align: center;
+}
+

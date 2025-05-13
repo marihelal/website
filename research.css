@@ -1,0 +1,48 @@
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    background-color: var(--dark-color);; 
+    padding-bottom: 5vh;
+    min-height: 80vh;
+}
+
+.entrytitle{
+    text-align: center;
+    font-size: 2vmax;
+}
+
+.researchentries{
+    background-color: var(--light-color);;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 5vmin;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5min;
+    margin-top: 5vmin;
+}
+
+.researchdesc{
+    text-align: center;
+}
+
+.picsections{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pics{
+    border-radius: 20px;
+    width: 30%;
+    aspect-ratio: 1/1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
