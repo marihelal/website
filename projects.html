@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Projects </title>
+        <link rel="stylesheet" href="theme.css">
+        <link rel="stylesheet" href="projects.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="navigation_bar">
+            <nav>
+                <a href="index.html"><button class="button" id="about-button">About</button></a>
+                <a href="research.html"><button class="button" id="resume-button">Research</button></a>
+                <a href="teaching.html"><button class="button" id="resume-button">Teaching</button></a>
+                <a href="outreach.html"><button class="button" id="resume-button">Outreach</button></a>
+                <a href="projects.html"><button class="button" id="resume-button">Projects</button></a>
+                <a href="Personal.html"><button class="button" id="resume-button">Personal</button></a>
+                <a href="Mariam_Helal_CV.pdf"><button class="button" id="resume-button">CV</button></a>
+            </nav>
+        </section>
+        <section class="banner">
+            <img class="sidepics" id="leftpic" src="images/crescentstars.png"/>
+            <p class="bigtitle"> Projects </p> 
+            <img class="sidepics" id="rightpic"  src="images/planetstar.png"/>
+        </section>
+        <section id="body">
+            <a href="#project1" class="project-button heading" id="project1-button">Milky Way Galaxy 3D Plot</a>
+            <a href="#project2" class="project-button heading" id="project2-button">Venus: A Runaway Greenhouse</a>
+            <a href="#project3" class="project-button heading" id="project3-button">Radiomateic Data Analysis on Chondrites</a>
+            
+            <div class="pop-ups" id="project1" >
+                <div class="pop-up-content">
+                  <a href="#" class="close-button">&times;</a>
+                  <div class="pop-up-images-section">
+                    <figure class="pop-up-images">
+                        <figcaption class="captions">Equations used</figcaption>
+                        <img src='images/equations.png' alt='Eqations Used' />
+                    </figure>
+                    <figure class="pop-up-images">
+                        <figcaption class="captions">Edge-on view</figcaption>
+                        <img src='images/edge-on.png' alt='Eqations Used' />
+                    </figure>
+                    <figure class="pop-up-images">
+                        <figcaption class="captions">Face-on view</figcaption>
+                        <img src='images/face-on.png' alt='Eqations Used' />
+                    </figure>
+                  </div>
+                  <p class="text pop-up-desc">My final project for when I took the <i>Python for Astronomers</i> was to attempt to observe the shape of the Milky Way galaxy and temperature distributions using a dataset of millions of stars in the Galaxy. Specifically, the dataset I used was the AT-HYG dataset, which includes data from the Tycho-2 Catalog Hipparcos Catalog, Yale Bright Star Catalog, and the Gliese Catalog of Nearby Stars. In order to plot the stars in 3D space, I converted the right ascension, declination, and distance values into cartesian coordinates. I then used the stars' B-V magnitude to calculate their temperatures using Ballesteros' formula. The disk shape can be clearly seen in this plot!</p>
+                </div>
+            </div>
+
+            <div class="pop-ups" id="project2" >
+                <div class="pop-up-content">
+                  <a href="#" class="close-button">&times;</a>
+                  <div class="embedded-pdf">
+                    <iframe id="runaway_pdf" src="Helal_Mariam_Runaway.pdf"></iframe>
+                  </div>
+                  <p class="text pop-up-desc">This is an article I wrote for EPS C162 (Planetry Astrophysics), about how Venus became a runaway greenhouse. All the hand-drawn illustrations were made by me.</p>
+                </div>
+            </div>
+
+            <div class="pop-ups" id="project3" >
+                <div class="pop-up-content">
+                  <a href="#" class="close-button">&times;</a>
+                  <div class="pop-up-images-section">
+                    <figure class="pop-up-images">
+                        <figcaption class="captions">Plotted Isochron</figcaption>
+                        <img src='images/isochron.png' alt='Eqations Used' />
+                    </figure>
+                    <figure class="pop-up-images">
+                        <figcaption class="captions">Monte Carlo Error Propogation</figcaption>
+                        <img src='images/montecarlo.png' alt='Eqations Used' />
+                    </figure>
+                  </div>
+                  <a href="https://github.com/marihelal/eps88-final">
+                    <button class="repo-button">
+                      <img src="images/github_icon.png" alt="GitHub icon">
+                      <p class="text">EPS 88 Final Repo</p>
+                    </button></a>
+                  <p class="text pop-up-desc">For my final project for EPS 88 (<i>Python for Earth Sciences</i>), I conducted data analysis on chondrite isotope data I sourced from Palk et al. 2018. I plotted the lead isotope ratios to find the slope, which I then used to solve for the age of the chondrites. I also used the Monte Carlo method to propogate the error from the best-fit slope measurement and data onto the age.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <hr>
+        <p id="copyright"> © 2025 Mariam Helal </p>
+    </footer>
+</html>

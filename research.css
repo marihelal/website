@@ -4,7 +4,7 @@
     justify-content: top;
     flex-direction: column;
     background-color: var(--dark-color);; 
-    padding-bottom: 5vh;
+    padding-bottom: 5vmin;
     min-height: 80vh;
 }
 
@@ -23,22 +23,23 @@
     padding: 5vmin;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5min;
+    margin-bottom: 5vmin;
     margin-top: 5vmin;
+    min-width: 50%;
 }
 
 .researchdesc{
     text-align: center;
 }
 
-.picsections{
+.picssections{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.pics{
+.picssections img{
     border-radius: 20px;
     width: 30%;
     aspect-ratio: 1/1;
