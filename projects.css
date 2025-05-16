@@ -1,6 +1,6 @@
 #body{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: flex-start;  
     flex-direction: row;
     background-color: var(--dark-color);; 
@@ -179,8 +179,9 @@ a{
     color:  var(--dark-color);
 }
 
-.pop-ups:target {
+.pop-ups:target{
     display: flex;
     justify-content: flex-start;
 }
+
 
