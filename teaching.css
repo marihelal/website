@@ -19,13 +19,12 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 5vmin;
-    margin-top: 5vmin;
 
 }
 
 
 #teachingdesc{
-    text-align: left;
+    text-align: justify;
     width: 80%
 }
 

@@ -59,14 +59,14 @@ h1, h2, h3, h4, h5, h6, p{
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
-    height: 30vmin;
-    padding-bottom: 2vmin;
+    height: 20vmin;
+    padding-bottom: 4vmin;
 }
 
 .bigtitle{
     text-align: center;
     color: #ffffff;
-    font-size: 4vw;
+    font-size: 8vmin;
     font-weight: bold;
 }
 
@@ -77,12 +77,12 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 #leftpic{
-    padding-left: 1vw;
+    padding-left: 2vw;
     padding-right: 1vw
 }
 
 #rightpic{
-    padding-right: 1vw;
+    padding-right: 2vw;
     padding-left: 1vw
 }
 

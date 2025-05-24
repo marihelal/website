@@ -25,7 +25,6 @@ a{
     border-radius: 20px;
     padding: 5vmin;
     margin-bottom: 5vmin;
-    margin-top: 5vmin;
     flex: 1;
     max-width: 30vmin;
     aspect-ratio: 1/1;
@@ -143,7 +142,7 @@ a{
 
 .pop-up-desc{
     margin-top: 3vh;
-    text-align: center;
+    text-align: justify;
 }
 
 .pop-up-images-section{

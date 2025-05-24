@@ -24,12 +24,11 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 5vmin;
-    margin-top: 5vmin;
     min-width: 50%;
 }
 
 .researchdesc{
-    text-align: center;
+    text-align: justify;
 }
 
 .picssections{
@@ -42,7 +41,7 @@
 .picssections img{
     border-radius: 20px;
     width: 30%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/1;
     margin-top: 2%;
     margin-bottom: 2%;
     object-fit: cover;

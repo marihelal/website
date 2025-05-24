@@ -1,6 +1,7 @@
 #body{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-content: flex-start;  
     flex-direction: row;
     background-color: var(--dark-color);; 
@@ -21,9 +22,8 @@
     border-radius: 20px;
     padding: 5vmin;
     margin-bottom: 5vmin;
-    margin-top: 5vmin;
     flex: 1;
-    min-width: 70px
+    min-width: 100px
 }
 
 
