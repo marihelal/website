@@ -1,11 +1,11 @@
 #body{
     display: flex;
     align-items: center;
-    justify-content: top;
+    justify-content: flex-start;
     flex-direction: column;
     background-color: var(--dark-color);; 
     padding-bottom: 5vh;
-    min-height: 80vh;
+    min-height:80vh;
 }
 
 .teachingentries{
@@ -18,7 +18,7 @@
     padding: 5vmin;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5vmin;
+    margin-bottom: 10vmin;
 
 }
 
@@ -28,7 +28,7 @@
     width: 80%
 }
 
-#pythonpicssection{
+#picssection{
     margin-right: 5%;
     display:flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
     align-content: right;
 }
 
-.pythonpics{
+#pics{
     border-radius: 20px;
     width: 100%;
     aspect-ratio: 1/1;
