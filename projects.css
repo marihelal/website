@@ -65,6 +65,15 @@ a{
     text-align: center;
 }
 
+#project4-button{
+    background-image: url("images/gsa_conference.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;     
+    background-position: center;  
+    text-align: center;
+}
+
 #runaway_pdf{
     height:50vh;
     width: 50vw
@@ -166,6 +175,12 @@ a{
     height: 25vmin;
     object-fit: contain;
     border-radius: 20px;
+    max-width: 100%;
+}
+
+#poster img{
+    height: 45vmin;
+    border-radius: 5px;
     max-width: 100%;
 }
 
