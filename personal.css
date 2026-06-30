@@ -6,11 +6,12 @@
     flex-direction: row;
     background-color: var(--dark-color);; 
     padding-bottom: 5vh;
+    padding: 5vh;
     min-height: 80vh;
     gap: 5vw;
-    padding-left: 5vw;
-    padding-right: 5vw; 
     flex-wrap: wrap;
+    padding-left: max(5vw, calc((100% - 1000px) / 2));
+    padding-right: max(5vw, calc((100% - 1000px) / 2));
 }
 
 .personalentries{
@@ -23,7 +24,8 @@
     padding: 5vmin;
     margin-bottom: 5vmin;
     flex: 1;
-    min-width: 100px
+    min-width: 100px;
+    max-width: 50vmin
 }
 
 
